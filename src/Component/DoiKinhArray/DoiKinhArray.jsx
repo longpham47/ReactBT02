@@ -23,7 +23,7 @@ export default class DoiKinhArray extends Component {
   rederGlassList = () => {
     return dataGlasses.map((glass) => {
       return <img onClick={() => { this.changeGlasses(glass) }} src={glass.url} alt="" 
-      className="col-2" style={{ width: '110px', cursor: 'pointer', backgroundColor: 'white', padding: '18px' }} 
+      className="col-2" style={{ width: '110px', backgroundColor: 'yellowgreen', padding: '10px' }} 
       key={`glass-${glass.id}`} />
     })
   }
